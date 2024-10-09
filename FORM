@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+ 2 <html lang="en">
+ 3  <head>
+ 4    <meta charset="UTF-8" />
+ 5    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 6    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ 7    <link rel="stylesheet" href="FORMM.css" />
+ 8    <title>Form Validator</title>
+ 9  </head>
+ 10  <body>
+ 11    <!-- Form -->
+ 12    <section class="container">
+ 13      <form>
+ 14        <div class="input-container">
+ 15          <input
+ 16            type="text"
+ 17            placeholder="Name*"
+ 18            class="username"
+ 19            id="username"
+ 20          />
+ 21          <p class="user-msg msg">error message</p>
+ 22        </div>
+ 23
+ 24        <div class="input-container">
+ 25          <input
+ 26            type="email"
+ 27            placeholder="Email Address*"
+ 28            class="email"
+ 29            id="email"
+ 30          />
+ 31          <p class="email-msg msg">error message</p>
+ 32        </div>
+ 33        <div class="input-container">
+ 34          <input
+ 35            type="password"
+ 36            placeholder="Password*"
+ 37            class="password1"
+ 38            id="password1"
+ 39          />
+ 40          <p class="password1-msg msg">error message</p>
+ 41        </div>
+ 42        <div class="input-container">
+ 43          <input
+ 44            type="password"
+ 45            placeholder="Confirm Password*"
+ 46            id="password2"
+ 47            class="password2"
+ 48          />
+ 49          <p class="password2-msg msg">error message</p>
+ 50        </div>
+ 51        <div class="input-container">
+ 52          <input
+ 53            type="Phone number"
+ 54            placeholder="Phone number*"
+ 55            id="Phone"
+ 56            class="Phone"
+ 57          />
+ 5/9/24, 12:02 PM FORM.html
+ localhost:59663/d6c8907d-384e-4623-bd33-0c1041bde209/ 1/2
+58          <p class="Phone msg">error message</p>
+ 59        <input type="submit" value="Submit" class="submit" />
+ 60        <p class="already">Already have an account? <a href="#">Login</a></p>
+ 61      </form>
+ 62      <!-- Image / Content -->
+ 63      <div class="content">
+ 64        <img
+ 65          src="C:\Users\aliya\Downloads\iPhone Wallpaper.jpg"
+ 66        />
+ 67        <h2>
+ 68          <br />
+ 69          ALIYA
+ 70        PALACE
+ 71        </h2>
+ 72      </div>
+ 73    </section>
+ 74
+ 75    <!-- <script src="script.js"></script> -->
+ 76    <script src="FORMMM.js"></script>
+ 77  </body>
+ 78 </html
